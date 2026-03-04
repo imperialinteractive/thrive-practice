@@ -1,4 +1,4 @@
-export const config = { runtime: 'nodejs18.x' };
+export const config = { runtime: 'nodejs' };
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO = 'imperialinteractive/thrive-practice';
