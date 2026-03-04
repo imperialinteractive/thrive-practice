@@ -1,0 +1,29 @@
+{
+  "exercises": [
+    {
+      "id": "ex001",
+      "name": "Supine Chin Tuck",
+      "description": "Lie on your back with knees bent. Gently tuck your chin toward your chest, making a slight double-chin. Hold briefly, then relax. Keep the back of your head on the surface throughout.",
+      "cues": [
+        "Keep back of head on surface",
+        "Move slowly and controlled",
+        "Breathe normally"
+      ],
+      "photo": "supine-chin-tuck"
+    }
+  ],
+  "patients": [
+    {
+      "slug": "test-patient-1",
+      "name": "Test Patient 1",
+      "program": [
+        {
+          "exerciseId": "ex001",
+          "sets": 3,
+          "reps": 10,
+          "notes": "Perform twice daily \u2014 morning and evening"
+        }
+      ]
+    }
+  ]
+}
