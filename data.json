@@ -10,6 +10,94 @@
         "Breathe normally"
       ],
       "photo": "supine-chin-tuck"
+    },
+    {
+      "id": "prone-pivot",
+      "name": "Prone Pivot",
+      "category": "Pediatric \u2014 Motor Development",
+      "description": "Baby lies on tummy and pivots/rotates using arms and legs to reach for toys in a circle. Builds core strength, arm strength, and motor planning.",
+      "sets": null,
+      "reps": null,
+      "hold": null,
+      "frequency": "As directed by physio",
+      "notes": "Place toys in a circle around baby to encourage pivoting in both directions."
+    },
+    {
+      "id": "prone-on-elbows-weight-shift",
+      "name": "Prone on Elbows \u2014 Weight Shift",
+      "category": "Pediatric \u2014 Motor Development",
+      "description": "Baby on tummy, propped on elbows. Encourage weight shift side to side to build shoulder stability and reach.",
+      "sets": null,
+      "reps": null,
+      "hold": null,
+      "frequency": "As directed by physio",
+      "notes": "Use a toy to encourage reaching to each side while maintaining elbow prop."
+    },
+    {
+      "id": "facilitated-rolling-back-to-tummy-right",
+      "name": "Facilitated Rolling Back to Tummy \u2014 Right Side",
+      "category": "Pediatric \u2014 Motor Development",
+      "description": "Assist baby to roll from back to tummy leading with the right side. Encourages trunk rotation and symmetrical development.",
+      "sets": null,
+      "reps": null,
+      "hold": null,
+      "frequency": "As directed by physio",
+      "notes": "Guide from the hips or legs. Allow baby to do as much of the work as possible."
+    },
+    {
+      "id": "facilitated-rolling-back-to-tummy-left",
+      "name": "Facilitated Rolling Back to Tummy \u2014 Left Side",
+      "category": "Pediatric \u2014 Motor Development",
+      "description": "Assist baby to roll from back to tummy leading with the left side. Encourages trunk rotation and symmetrical development.",
+      "sets": null,
+      "reps": null,
+      "hold": null,
+      "frequency": "As directed by physio",
+      "notes": "Guide from the hips or legs. Allow baby to do as much of the work as possible."
+    },
+    {
+      "id": "propped-sitting-elevated-surface",
+      "name": "Propped Sitting with Hands on Elevated Surface or Toy",
+      "category": "Pediatric \u2014 Motor Development",
+      "description": "Baby sits with hands placed on an elevated surface or toy for support. Builds sitting balance, trunk control, and upper extremity weight-bearing.",
+      "sets": null,
+      "reps": null,
+      "hold": null,
+      "frequency": "As directed by physio",
+      "notes": "Support at hips if needed. Encourage reaching with one hand while other stays on surface."
+    },
+    {
+      "id": "lateral-head-righting-tilting-left",
+      "name": "Lateral Head Righting \u2014 Tilting Left",
+      "category": "Pediatric \u2014 Tilting / Righting",
+      "description": "Hold baby upright and tilt slowly to the left. Baby should right their head back to midline. Strengthens lateral neck muscles and righting reactions.",
+      "sets": 1,
+      "reps": 5,
+      "hold": "As tolerated",
+      "frequency": "3x per day",
+      "notes": "Move slowly. Only tilt as far as baby can right their head. Stop if baby shows discomfort."
+    },
+    {
+      "id": "assisted-side-lying-to-sitting",
+      "name": "Assisted or Facilitated Side-Lying to Sitting",
+      "category": "Pediatric \u2014 Motor Development",
+      "description": "From side-lying, assist baby to push up to sitting using their arm. Builds lateral trunk strength and transitional movement skills.",
+      "sets": null,
+      "reps": null,
+      "hold": null,
+      "frequency": "As directed by physio",
+      "notes": "Guide at the shoulder and hip. Encourage baby to push through their hand."
+    },
+    {
+      "id": "propped-sitting-left-side",
+      "name": "Propped Sitting \u2014 To His Left Side",
+      "category": "Pediatric \u2014 Tilting / Righting",
+      "description": "Propped sitting with support or lean to the left side to encourage weight-bearing and righting on the left. Addresses any asymmetry.",
+      "sets": null,
+      "reps": null,
+      "hold": null,
+      "frequency": "As directed by physio",
+      "notes": "Support at hips. Encourage baby to right head and trunk when weight shifted left."
     }
   ],
   "patients": [
