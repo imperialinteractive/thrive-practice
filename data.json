@@ -112,6 +112,20 @@
         "Breathe in on the way down, out on the way up"
       ],
       "photo": "bodyweight-squat"
+    },
+    {
+      "id": "chewing-cud",
+      "name": "Chewing Cud",
+      "category": "TMJ \u2014 Jaw Mobility",
+      "description": "Slowly move your jaw in a large circular chewing motion, as if chewing a big piece of gum. Keep the movement smooth and controlled. This helps restore normal jaw mobility and reduce TMJ tension.",
+      "cues": [
+        "Move slowly and smoothly \u2014 no rushing",
+        "Keep your shoulders relaxed",
+        "Stop if you feel sharp pain",
+        "Breathe normally throughout"
+      ],
+      "photo": null,
+      "video": "chewing-cud"
     }
   ],
   "patients": [
