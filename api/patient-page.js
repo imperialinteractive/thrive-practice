@@ -50,6 +50,14 @@ function renderPatientPage(patient, exercises) {
     if (!groups[cat]) { groups[cat] = []; groupOrder.push(cat); }
     groups[cat].push({ ...ex, _idx: i });
   });
+  // Paediatric always last
+  groupOrder.sort((a, b) => {
+    const aP = a.toLowerCase().startsWith('paediatric');
+    const bP = b.toLowerCase().startsWith('paediatric');
+    if (aP && !bP) return 1;
+    if (!aP && bP) return -1;
+    return 0;
+  });
 
   const groupedHTML = groupOrder.map(cat => {
     const exList = groups[cat].map((ex) => {
