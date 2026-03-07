@@ -55,9 +55,9 @@ function renderPatientPage(patient, exercises) {
     const exList = groups[cat].map((ex) => {
       const i = ex._idx;
       const mediaTag = ex.video
-        ? `<video controls playsinline style="width:100%;border-radius:12px;margin:12px 0;max-height:300px;" preload="metadata"><source src="/videos/${ex.video}.mp4" type="video/mp4"></video>`
+        ? `<video controls playsinline style="width:100%;border-radius:12px;margin:12px 0;max-height:300px;" preload="metadata"><source src="/media/videos/${ex.video}.mp4" type="video/mp4"></video>`
         : ex.photo
-          ? `<img src="/images/${ex.photo}.jpg" style="width:100%;border-radius:12px;margin:12px 0;" alt="${ex.name}" loading="lazy">`
+          ? `<img src="/media/images/${ex.photo}.jpg" style="width:100%;border-radius:12px;margin:12px 0;" alt="${ex.name}" loading="lazy">`
           : '';
       const cuesHTML = ex.cues?.length
         ? `<ul style="margin:8px 0 0;padding-left:18px;">${ex.cues.map(c => `<li style="font-size:13px;color:#7a6a5e;margin-bottom:4px;">${c}</li>`).join('')}</ul>`
