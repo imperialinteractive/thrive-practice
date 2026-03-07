@@ -98,6 +98,20 @@
       "hold": null,
       "frequency": "As directed by physio",
       "notes": "Support at hips. Encourage baby to right head and trunk when weight shifted left."
+    },
+    {
+      "id": "bodyweight-squat",
+      "name": "Bodyweight Squat",
+      "category": "Lower Body \u2014 Strength",
+      "description": "Stand with feet shoulder-width apart, toes slightly turned out. Keeping your chest tall and core engaged, push your hips back and bend your knees, lowering until thighs are parallel to the floor (or as low as comfortable). Drive through your heels to return to standing.",
+      "cues": [
+        "Keep chest tall, don't round forward",
+        "Push knees out over toes",
+        "Drive through your heels to stand",
+        "Keep weight in mid-foot and heels",
+        "Breathe in on the way down, out on the way up"
+      ],
+      "photo": "bodyweight-squat"
     }
   ],
   "patients": [
