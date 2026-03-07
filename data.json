@@ -14,7 +14,7 @@
     {
       "id": "prone-pivot",
       "name": "Prone Pivot",
-      "category": "Pediatric \u2014 Motor Development",
+      "category": "Pediatric — Motor Development",
       "description": "Baby lies on tummy and pivots/rotates using arms and legs to reach for toys in a circle. Builds core strength, arm strength, and motor planning.",
       "sets": null,
       "reps": null,
@@ -24,8 +24,8 @@
     },
     {
       "id": "prone-on-elbows-weight-shift",
-      "name": "Prone on Elbows \u2014 Weight Shift",
-      "category": "Pediatric \u2014 Motor Development",
+      "name": "Prone on Elbows — Weight Shift",
+      "category": "Pediatric — Motor Development",
       "description": "Baby on tummy, propped on elbows. Encourage weight shift side to side to build shoulder stability and reach.",
       "sets": null,
       "reps": null,
@@ -35,8 +35,8 @@
     },
     {
       "id": "facilitated-rolling-back-to-tummy-right",
-      "name": "Facilitated Rolling Back to Tummy \u2014 Right Side",
-      "category": "Pediatric \u2014 Motor Development",
+      "name": "Facilitated Rolling Back to Tummy — Right Side",
+      "category": "Pediatric — Motor Development",
       "description": "Assist baby to roll from back to tummy leading with the right side. Encourages trunk rotation and symmetrical development.",
       "sets": null,
       "reps": null,
@@ -46,8 +46,8 @@
     },
     {
       "id": "facilitated-rolling-back-to-tummy-left",
-      "name": "Facilitated Rolling Back to Tummy \u2014 Left Side",
-      "category": "Pediatric \u2014 Motor Development",
+      "name": "Facilitated Rolling Back to Tummy — Left Side",
+      "category": "Pediatric — Motor Development",
       "description": "Assist baby to roll from back to tummy leading with the left side. Encourages trunk rotation and symmetrical development.",
       "sets": null,
       "reps": null,
@@ -58,7 +58,7 @@
     {
       "id": "propped-sitting-elevated-surface",
       "name": "Propped Sitting with Hands on Elevated Surface or Toy",
-      "category": "Pediatric \u2014 Motor Development",
+      "category": "Pediatric — Motor Development",
       "description": "Baby sits with hands placed on an elevated surface or toy for support. Builds sitting balance, trunk control, and upper extremity weight-bearing.",
       "sets": null,
       "reps": null,
@@ -68,8 +68,8 @@
     },
     {
       "id": "lateral-head-righting-tilting-left",
-      "name": "Lateral Head Righting \u2014 Tilting Left",
-      "category": "Pediatric \u2014 Tilting / Righting",
+      "name": "Lateral Head Righting — Tilting Left",
+      "category": "Pediatric — Tilting / Righting",
       "description": "Hold baby upright and tilt slowly to the left. Baby should right their head back to midline. Strengthens lateral neck muscles and righting reactions.",
       "sets": 1,
       "reps": 5,
@@ -80,7 +80,7 @@
     {
       "id": "assisted-side-lying-to-sitting",
       "name": "Assisted or Facilitated Side-Lying to Sitting",
-      "category": "Pediatric \u2014 Motor Development",
+      "category": "Pediatric — Motor Development",
       "description": "From side-lying, assist baby to push up to sitting using their arm. Builds lateral trunk strength and transitional movement skills.",
       "sets": null,
       "reps": null,
@@ -90,8 +90,8 @@
     },
     {
       "id": "propped-sitting-left-side",
-      "name": "Propped Sitting \u2014 To His Left Side",
-      "category": "Pediatric \u2014 Tilting / Righting",
+      "name": "Propped Sitting — To His Left Side",
+      "category": "Pediatric — Tilting / Righting",
       "description": "Propped sitting with support or lean to the left side to encourage weight-bearing and righting on the left. Addresses any asymmetry.",
       "sets": null,
       "reps": null,
@@ -102,7 +102,7 @@
     {
       "id": "bodyweight-squat",
       "name": "Bodyweight Squat",
-      "category": "Lower Body \u2014 Strength",
+      "category": "Lower Body — Strength",
       "description": "Stand with feet shoulder-width apart, toes slightly turned out. Keeping your chest tall and core engaged, push your hips back and bend your knees, lowering until thighs are parallel to the floor (or as low as comfortable). Drive through your heels to return to standing.",
       "cues": [
         "Keep chest tall, don't round forward",
@@ -123,7 +123,13 @@
           "exerciseId": "ex001",
           "sets": 3,
           "reps": 10,
-          "notes": "Perform twice daily \u2014 morning and evening"
+          "notes": "Perform twice daily — morning and evening"
+        },
+        {
+          "exerciseId": "bodyweight-squat",
+          "sets": 3,
+          "reps": 10,
+          "notes": ""
         }
       ]
     }
