@@ -13,7 +13,18 @@ async function getDataFile(filename) {
 }
 
 async function getImageB64(name) {
+  if (!name) return null;
   const res = await fetch(`https://raw.githubusercontent.com/${REPO}/main/images/${name}.jpg`, {
+    headers: GITHUB_TOKEN ? { Authorization: `token ${GITHUB_TOKEN}` } : {}
+  });
+  if (!res.ok) return null;
+  const buf = await res.arrayBuffer();
+  return Buffer.from(buf).toString('base64');
+}
+
+async function getVideoB64(name) {
+  if (!name) return null;
+  const res = await fetch(`https://raw.githubusercontent.com/${REPO}/main/videos/${name}.mp4`, {
     headers: GITHUB_TOKEN ? { Authorization: `token ${GITHUB_TOKEN}` } : {}
   });
   if (!res.ok) return null;
@@ -44,7 +55,8 @@ export default async function handler(req, res) {
     const ex = data.exercises?.find(e => e.id === prog.exerciseId);
     if (!ex) continue;
     const b64 = await getImageB64(ex.photo);
-    exercises.push({ ...ex, ...prog, b64 });
+    const videoB64 = await getVideoB64(ex.video);
+    exercises.push({ ...ex, ...prog, b64, videoB64 });
   }
 
   res.setHeader('Content-Type', 'text/html');
@@ -57,9 +69,14 @@ function notFoundHTML() {
 
 function renderPatientPage(patient, exercises) {
   const exerciseHTML = exercises.map((ex, i) => {
-    const imgTag = ex.b64
-      ? `<img src="data:image/jpeg;base64,${ex.b64}" style="width:100%;border-radius:12px;margin:12px 0;" alt="${ex.name}">`
-      : '';
+    const mediaTag = ex.videoB64
+      ? `<video controls playsinline style="width:100%;border-radius:12px;margin:12px 0;" preload="metadata">
+          <source src="data:video/mp4;base64,${ex.videoB64}" type="video/mp4">
+        </video>`
+      : ex.b64
+        ? `<img src="data:image/jpeg;base64,${ex.b64}" style="width:100%;border-radius:12px;margin:12px 0;" alt="${ex.name}">`
+        : '';
+    const imgTag = mediaTag;
     const cuesHTML = ex.cues?.length
       ? `<ul style="margin:8px 0 0;padding-left:18px;">${ex.cues.map(c => `<li style="font-size:13px;color:#7a6a5e;margin-bottom:4px;">${c}</li>`).join('')}</ul>`
       : '';
