@@ -1,10 +1,23 @@
 {
   "rewrites": [
-    { "source": "/p/:slug", "destination": "/api/patient-page?slug=:slug" }
+    {
+      "source": "/p/:slug",
+      "destination": "/api/patient-page?slug=:slug"
+    },
+    {
+      "source": "/media/:path*",
+      "destination": "/api/media?path=:path*"
+    }
   ],
   "headers": [
-    { "source": "/(.*)", "headers": [
-      { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
-    ]}
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
   ]
 }
